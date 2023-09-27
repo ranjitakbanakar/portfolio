@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>contact</title>
+    <style>
+        body{
+        background-color: #cdfff300;
+        }
+        #tw{
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h2>contact</h2>
+    <form>
+        <fieldset style="border: 3px ridge brown; width: 50%;">
+            <legend style="text-align: center; border: 3px ridge brown;">Personal details</legend>
+            <label for=" First name">First Name</label>
+            <input type="text" required id="First Name" name="First Name" ><br> <br>
+
+            <label for=" Last name">Last Name</label>
+            <input type="text" required id="Last Name" name="Last Name" ><br> <br>
+            
+            <label for=" Middle name">Middle Name</label>
+            <input type="text" required id="Middle Name" name="Middle Name" ><br> <br>
+            
+            <label for=" Email">Email</label>
+            <input type="email" required id="Email" name="Email" ><br> <br>
+            
+            <label for=" DOB">DOB</label>
+            <input type="date" required id="DOB" name="DOB" ><br> <br>
+        </fieldset>
+    </form>
+<form action="home3.html">
+        <fieldset style="border: 3px ridge rgb(165, 42, 61); width:50%;">
+            <legend style="text-align: center; border: 3px ridge brown;">Educational Details</legend>
+
+            <label for="Department" >Skills</label>
+            <br><br>
+            <input type="radio" name="dept" id="CS" value="CS">
+            <label for="CS"> CS</label><br><br>
+
+            <input type="radio" name="dept" id="Civil" value="CS">
+            <label for="Civil">Civil</label><br><br>
+
+            <input type="radio" name="dept" id="Java" value="Java">
+            <label for="Java"> Java</label><br><br>
+
+            <input type="radio" name="dept" id="Mech" value="Mech">
+            <label for="Mech"> Mech</label><br><br>
+            
+            <label for="yop">yog</label>
+            <input list="yog" id="yop" name="yog">
+            <datalist id="yog">
+                <option> 2014</option>
+                <option> 2020</option>
+                <option> 2015</option>
+                <option> 2016</option>
+                <option> 2019</option>
+            </datalist><br><br>
+            <label for="Skills" >Skills</label>
+            <br><br>
+            <input type="checkbox" name="CSS" id="CSS">
+            <label for="CSS"> CSS</label><br><br>
+
+            <input type="checkbox" name="SQL" id="SQL">
+            <label for="SQL">SQL</label><br><br>
+
+            <input type="checkbox" name="Java" id="Java">
+            <label for="Java"> Java</label><br><br>
+
+            <input type="checkbox" name="Html" id="Html">
+            <label for="Html"> Html</label><br><br>
+        </fieldset>
+        <input id ="tw" type="submit">
+    </form>
+
+
+</body>
+</html>
